@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Snake Game</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div class="header">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+        <span class="dot"></span>
+        <p>WEB DEV</p>
+      </div>
+      <!-- Title -->
+      <div class="title">
+        <h1>Snake Game</h1>
+        <img src="img/snakeImg.png" alt="snake" />
+      </div>
+    </div>
+    <div class="container">
+      <!-- Game Area -->
+      <div class="wrapper-game">
+        <!-- Game Details -->
+        <div class="game-details">
+          <span class="score">Score: 0</span>
+          <span class="high-score">High Score: 0</span>
+        </div>
+        <!-- Play Area -->
+        <div class="play-area"></div>
+      </div>
+      <!-- Game Instructions -->
+      <div class="game-instructions">
+        <p>Pressione uma tecla para iniciar.</p>
+      </div>
+      <!-- Controls -->
+      <div class="controls">
+        <i data-key="ArrowUp" class="ph-fill ph-arrow-fat-up up"></i>
+        <div class="btn-group">
+          <i data-key="ArrowLeft" class="ph-fill ph-arrow-fat-left left"></i>
+          <i data-key="ArrowDown" class="ph-fill ph-arrow-fat-down down"></i>
+          <i data-key="ArrowRight" class="ph-fill ph-arrow-fat-right right"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>Created by <a href="https://github.com/artyriosb">Arthur Rios.</a></p>
+    </footer>
+  </body>
+</html>
